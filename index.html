@@ -1,102 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPNC College</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SPNC Medical College</title>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial;
-            background: #f0f2f5;
-        }
+<style>
+body {
+    margin:0;
+    font-family: Arial;
+    background:#eef2f7;
+}
 
-        header {
-            background: #0d47a1;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
+/* HEADER */
+header {
+    background: linear-gradient(45deg,#0d47a1,#1976d2);
+    color:white;
+    text-align:center;
+    padding:20px;
+}
 
-        nav {
-            background: #1565c0;
-            padding: 10px;
-            text-align: center;
-        }
+/* NAVBAR */
+nav {
+    background:#1565c0;
+    padding:10px;
+    text-align:center;
+}
+nav a {
+    color:white;
+    margin:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
 
-        nav a {
-            color: white;
-            margin: 10px;
-            text-decoration: none;
-            font-weight: bold;
-        }
+/* BANNER */
+.banner img {
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
 
-        .container {
-            padding: 20px;
-        }
+/* CONTAINER */
+.container {
+    padding:20px;
+}
 
-        .card {
-            background: white;
-            padding: 15px;
-            margin: 15px 0;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
+/* CARD */
+.card {
+    background:white;
+    padding:15px;
+    margin:15px 0;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
 
-        button {
-            padding: 10px 15px;
-            background: green;
-            color: white;
-            border: none;
-            border-radius: 5px;
-        }
+/* BUTTON */
+button {
+    padding:10px 15px;
+    background:green;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
 
-        footer {
-            background: #0d47a1;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px;
-        }
-    </style>
+/* FORM */
+input, textarea {
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+/* WHATSAPP */
+.whatsapp {
+    position:fixed;
+    bottom:20px;
+    right:20px;
+}
+.whatsapp a {
+    background:#25D366;
+    color:white;
+    padding:12px;
+    border-radius:50%;
+    text-decoration:none;
+    font-size:20px;
+}
+
+/* FOOTER */
+footer {
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-    <h1>SPNC Medical College</h1>
-    <p>Science • Skills • Service</p>
+<h1>SPNC Medical College</h1>
+<p>Science • Skills • Service</p>
 </header>
 
 <nav>
-    <a href="#">Home</a>
-    <a href="#">Courses</a>
-    <a href="#">Contact</a>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#courses">Courses</a>
+<a href="#contact">Contact</a>
 </nav>
+
+<div class="banner">
+<img src="https://images.unsplash.com/photo-1588776814546-ec7e0e6f6c08">
+</div>
 
 <div class="container">
 
-    <div class="card">
-        <h2>About Us</h2>
-        <p>This is a demo college website created by Ankit.</p>
-    </div>
+<div class="card" id="about">
+<h2>About Us</h2>
+<p>This is a professional college website created by Ankit. We provide quality education and training.</p>
+</div>
 
-    <div class="card">
-        <h2>Courses</h2>
-        <p>B.A | B.Sc | B.Com | Nursing</p>
-    </div>
+<div class="card" id="courses">
+<h2>Courses</h2>
+<ul>
+<li>B.A</li>
+<li>B.Sc</li>
+<li>B.Com</li>
+<li>Nursing</li>
+<li>Pharmacy</li>
+</ul>
+</div>
 
-    <div class="card">
-        <h2>Contact</h2>
-        <button onclick="alert('Call: 9876543210')">Call Now</button>
-    </div>
+<div class="card">
+<h2>Facilities</h2>
+<ul>
+<li>Library 📚</li>
+<li>Hostel 🏠</li>
+<li>Sports ⚽</li>
+<li>Labs 🔬</li>
+</ul>
+</div>
+
+<div class="card" id="contact">
+<h2>Contact Us</h2>
+
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+<textarea placeholder="Your Message"></textarea>
+
+<button onclick="alert('Form submitted!')">Submit</button>
 
 </div>
 
+</div>
+
+<!-- WhatsApp Button -->
+<div class="whatsapp">
+<a href="https://wa.me/919876543210">💬</a>
+</div>
+
 <footer>
-    <p>© 2026 SPNC College | All Rights Reserved</p>
+<p>© 2026 SPNC Medical College | All Rights Reserved</p>
 </footer>
 
 </body>
-</html>
+    </html>
