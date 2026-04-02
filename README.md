@@ -1,13 +1,13 @@
-🎓 SRM Paramedical Institute of Science
+🎓SPNC
 
 🌐 Live Website: https://ankuj1192-spnc.github.io
-📍 Location: Devrajpur Kadipur, Sultanpur, Uttar Pradesh
+📍 Location: Bangarkhurd Kadipur, Sultanpur, Uttar Pradesh
 
 ---
 
 📢 About Us
 
-SRM Paramedical Institute of Science is committed to providing quality education in healthcare.
+SPNC Paramedical Institute of Science is committed to providing quality education in healthcare.
 Our mission is to develop skilled, disciplined, and confident healthcare professionals.
 
 ---
@@ -43,9 +43,9 @@ Our mission is to develop skilled, disciplined, and confident healthcare profess
 
 📞 Contact Information
 
-- 📍 Address: Devrajpur Kadipur Sultanpur UP
-- 📞 Phone: +91 9616754387
-- 📧 Email: info@srmparamedicalcollege.com
+- 📍 Address: Bishnoogopalpur Kadipur Sultanpur UP
+- 📞 Phone: +91 6307805595
+- 📧 Email: info@SPNC.com
 
 ---
 
